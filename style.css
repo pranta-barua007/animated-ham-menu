@@ -28,7 +28,7 @@ body {
     width: 50px;
     height: 6px;
     background: #fff;
-    border-radius: 50px;
+    border-radius: 70px;
     /* margin: 10px; */
 }
 
@@ -40,6 +40,6 @@ body {
 }
 
 .lower-bar {
-    transform: rotate(-40deg);
+    transform: rotate(-45deg);
     transform-origin: 38% 200%;
 }
