@@ -24,6 +24,6 @@ body {
 
 /* Change the transform rotate value */
 .upper-bar {
-    transform: rotate(45deg);
+    transform: rotate(0deg);
     transform-origin: 10% 40%;
 }
