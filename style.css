@@ -24,8 +24,8 @@ body {
     transition: 0.5s;
 }
 
-.upper-bar {
-    /* transform: rotate(5deg) translate(0px, 2px); */
+.lower-bar {
+    /* transform: rotate(5deg) translate(0px, -3px); */
 }
 
 .text {
@@ -87,25 +87,61 @@ body {
 @keyframes upper-bar-reverse {
     0% {
         transform: rotate(45deg) translate(10px, 15px);
+        margin-top: 0px;
+        width: 40px;
     }
 
-    20% {
+    25% {
         transform: rotate(-10deg) translate(1px, -2px);
+        margin-top: -8px;
+        width: 37px;
     }
 
-    40% {
+    50% {
         transform: rotate(10deg) translate(0px, 4px);
+        margin-top: 6px;
+        width: 40px;
     }
 
-    60% {
+    75% {
         transform: rotate(-5deg) translate(0px, -1px);
-    }
-
-    80% {
-        transform: rotate(5deg) translate(0px, 2px);
+        margin-top: -4px;
+        width: 40px;
     }
 
     100% {
         transform: rotate(0deg);
+        margin-top: 0px;
+        width: 40px;
+    }
+}
+
+.after-cross-lower-bar {
+    animation: lower-bar-reverse 1s ease-out;
+}
+
+@keyframes lower-bar-reverse {
+    0% {
+        transform: rotate(-45deg) translate(-6px, 2px);
+        width: 40px;
+    }
+
+    25% {
+        transform: rotate(10deg) translate(-1px, -4px);
+    }
+
+    50% {
+        transform: rotate(-10deg) translate(0px, 2px);
+        width: 40px;
+    }
+
+    75% {
+        transform: rotate(5deg) translate(0px, -3px);
+        width: 40px;
+    }
+
+    100% {
+        transform: rotate(0deg);
+        width: 40px;
     }
 }

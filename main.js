@@ -3,7 +3,7 @@ function clicked() {
     
     if (clickd) {
         document.getElementById("one-bar").classList.toggle('after-cross-upper-bar');
-
+        document.getElementById("two-bar").classList.toggle('after-cross-lower-bar');
         clickd = false;
     }
     document.getElementById("one-bar").classList.toggle('upper-bar-clicked');
