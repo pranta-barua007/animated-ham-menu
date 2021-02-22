@@ -25,7 +25,7 @@ body {
 }
 
 .upper-bar {
-    /* transform: rotate(10deg) translate(0px, 4px); */
+    /* transform: rotate(5deg) translate(0px, 2px); */
 }
 
 .text {
@@ -81,8 +81,6 @@ body {
 /* after cross */
 
 .after-cross-upper-bar {
-    /* transform: rotate(-10deg);
-    transform-origin: top left; */
     animation: upper-bar-reverse 1s ease-out;
 }
 
@@ -91,16 +89,20 @@ body {
         transform: rotate(45deg) translate(10px, 15px);
     }
 
-    25% {
-        transform: rotate(-20deg) translate(0px, -5px);
+    20% {
+        transform: rotate(-10deg) translate(1px, -2px);
     }
 
-    50% {
+    40% {
         transform: rotate(10deg) translate(0px, 4px);
     }
 
-    75% {
-        transform: rotate(-10deg) translate(1px, -2px);
+    60% {
+        transform: rotate(-5deg) translate(0px, -1px);
+    }
+
+    80% {
+        transform: rotate(5deg) translate(0px, 2px);
     }
 
     100% {
