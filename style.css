@@ -24,10 +24,6 @@ body {
     transition: 0.5s;
 }
 
-.lower-bar {
-    /* transform: rotate(5deg) translate(0px, -3px); */
-}
-
 .text {
     font-family: 'Arial Round', sans-serif;
     color: #fff;
@@ -128,6 +124,7 @@ body {
 
     25% {
         transform: rotate(10deg) translate(-1px, -4px);
+        width: 40px;
     }
 
     50% {
