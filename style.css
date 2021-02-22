@@ -30,7 +30,8 @@ body {
     color: #fff;
     text-align: center;
     text-transform: uppercase;
-    font-size: 13px;
+    font-size: 11px;
+    letter-spacing: 2.8px;
     transition: 1s;
 }
 
