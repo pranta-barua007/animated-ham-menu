@@ -71,3 +71,10 @@ body {
         margin-top: -4px;
     }
 }
+
+/* after cross */
+
+.after-cross-upper-bar {
+    transform: rotate(-10deg);
+    transform-origin: top left;
+}
