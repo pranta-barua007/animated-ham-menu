@@ -24,6 +24,10 @@ body {
     transition: 0.5s;
 }
 
+.upper-bar {
+    /* transform: rotate(10deg) translate(0px, 4px); */
+}
+
 .text {
     font-family: 'Arial Round', sans-serif;
     color: #fff;
@@ -55,7 +59,9 @@ body {
 }
 
 @keyframes animate-upper-bar {
-    0%, 100% {
+
+    0%,
+    100% {
         margin-top: 0px;
     }
 
@@ -75,6 +81,29 @@ body {
 /* after cross */
 
 .after-cross-upper-bar {
-    transform: rotate(-10deg);
-    transform-origin: top left;
+    /* transform: rotate(-10deg);
+    transform-origin: top left; */
+    animation: upper-bar-reverse 1s ease-out;
+}
+
+@keyframes upper-bar-reverse {
+    0% {
+        transform: rotate(45deg) translate(10px, 15px);
+    }
+
+    25% {
+        transform: rotate(-20deg) translate(0px, -5px);
+    }
+
+    50% {
+        transform: rotate(10deg) translate(0px, 4px);
+    }
+
+    75% {
+        transform: rotate(-10deg) translate(1px, -2px);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
 }
