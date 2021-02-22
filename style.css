@@ -41,7 +41,6 @@ body {
 .lower-bar-clicked {
     width: 50px;
     transform: rotate(-45deg) translate(-6px, 2px);
-    /* display: none; */
 }
 
 .text-clicked {
@@ -51,7 +50,7 @@ body {
 }
 
 .upper-bar-clicked {
-    animation: animate-upper-bar 1s ease-out;
+    animation: animate-upper-bar 0.5s ease-out;
 }
 
 @keyframes animate-upper-bar {
